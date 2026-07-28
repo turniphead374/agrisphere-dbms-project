@@ -1,0 +1,78 @@
+/* Global page background */
+body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: #f5f8f5;
+    color: #1f2937;
+}
+
+/* Page container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+/* Greeting */
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2f6b3f;
+}
+
+.page-subtitle {
+    margin-top: 6px;
+    color: #6b7280;
+}
+
+/* Grid for dashboard cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Card */
+.card {
+    background: #f1f8f4;
+    padding: 22px;
+    border-radius: 14px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Card title */
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2f6b3f;
+    margin-bottom: 6px;
+}
+
+/* Card description */
+.card-desc {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* Card link */
+.card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Logout */
+.logout {
+    margin-top: 30px;
+    color: #2f6b3f;
+    font-weight: 500;
+    text-decoration: none;
+}

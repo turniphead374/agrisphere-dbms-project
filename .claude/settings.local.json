@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:localhost)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(C:xamppmysqlbinmysql.exe -u root -e \"SOURCE C:/xampp/htdocs/Agrisphere/database/setup.sql\")",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"SOURCE C:/xampp/htdocs/Agrisphere/database/setup.sql\")",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\":*)",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"USE \\\\`cse311 lab project\\\\`; DESCRIBE government_prices;\")",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"USE \\\\`cse311 lab project\\\\`; SELECT * FROM category;\")",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"USE \\\\`cse311 lab project\\\\`; SELECT product_name, price_per_unit, unit FROM government_prices LIMIT 10;\")",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"USE \\\\`cse311 lab project\\\\`; DESCRIBE ai_log;\")",
+      "Bash(find:*)",
+      "Bash(\"/c/xampp/mysql/bin/mysql.exe\" -u root -e \"USE \\\\`cse311 lab project\\\\`; SELECT COUNT\\(*\\) as count FROM user; SELECT COUNT\\(*\\) as count FROM category; SELECT COUNT\\(*\\) as count FROM government_prices; SELECT COUNT\\(*\\) as count FROM farm_product;\")"
+    ]
+  }
+}
