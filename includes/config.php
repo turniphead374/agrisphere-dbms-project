@@ -37,7 +37,7 @@ define('ALLOWED_IMAGE_TYPES', ['image/jpeg', 'image/png', 'image/gif', 'image/we
 // =====================================================
 // AI Configuration (Gemini API - Using Gemini 2.5 Flash)
 // =====================================================
-define('GEMINI_API_KEY', 'AIzaSyBngqqwX1UYmX7WC-obXP663g_NkJwNBb4');
+define('GEMINI_API_KEY', '');
 define('GEMINI_API_URL', 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent');
 
 // =====================================================
